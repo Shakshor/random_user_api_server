@@ -28,13 +28,17 @@ router
 
 
 router
-    .route('/update')
+    .route('/update/:id')
     /**
     * update a user
     */
     .patch(userController.updateAUser);
 
 
+
+router
+    .route('/delete/:id')
+    .delete(userController.deleteAUser);
 
 
 

@@ -11,9 +11,9 @@ app.use(express.json());
 app.use('/api/v1/user', UserRoute);
 
 
-// app.get('/', (req, res) => {
-//     res.send("Hello Users");
-// });
+app.get('/', (req, res) => {
+    res.send("Hello Users");
+});
 
 app.listen(port, () => {
     console.log(`app listening on port ${port}`);
