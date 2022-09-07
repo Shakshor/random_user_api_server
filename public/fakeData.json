@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Arif",
+        "gender": "male",
+        "contact": "01567777771",
+        "address": "Rajshahi",
+        "img": "https://i.ibb.co/KF10t3y/arif.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Yasir",
+        "gender": "male",
+        "contact": "01567777772",
+        "address": "Shirajgonj",
+        "img": "https://i.ibb.co/1sCXgQT/yasir.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Niloy",
+        "gender": "male",
+        "contact": "01567777773",
+        "address": "Narail",
+        "img": "https://i.ibb.co/GnLBpnG/niloy.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Ariful",
+        "gender": "male",
+        "contact": "01567777774",
+        "address": "Sylhet",
+        "img": "https://i.ibb.co/h1LMqqz/arif2.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Jabed",
+        "gender": "male",
+        "contact": "01567777775",
+        "address": "Dhaka",
+        "img": "https://i.ibb.co/PNF6P3C/jabed.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Faisal",
+        "gender": "male",
+        "contact": "01567777776",
+        "address": "Dhaka",
+        "img": "https://i.ibb.co/pXBMnnR/faisal.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Nahid",
+        "gender": "male",
+        "contact": "01567777777",
+        "address": "Gajipur",
+        "img": "https://i.ibb.co/Mcz1p55/nahid-min.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Rafid",
+        "gender": "male",
+        "contact": "01567777778",
+        "address": "Bandarban",
+        "img": "https://i.ibb.co/w0fS98b/rafid-min.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Sibbir",
+        "gender": "male",
+        "contact": "01567777779",
+        "address": "Barishal",
+        "img": " https://i.ibb.co/VVVxzSS/sibbir-min.jpg"
+    }
+]
