@@ -10,8 +10,9 @@ app.use(express.json());
 
 app.use('/api/v1/user', UserRoute);
 
+
 // app.get('/', (req, res) => {
-//     res.send("Hello word");
+//     res.send("Hello Users");
 // });
 
 app.listen(port, () => {
