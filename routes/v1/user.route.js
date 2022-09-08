@@ -28,7 +28,7 @@ router
 
 
 router
-    .route('/update/:id')
+    .route('/update')
     /**
     * update a user
     */
@@ -37,7 +37,7 @@ router
 
 
 router
-    .route('/delete/:id')
+    .route('/delete')
     .delete(userController.deleteAUser);
 
 
