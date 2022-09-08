@@ -12,14 +12,17 @@ module.exports.getAllUser = (req, res) => {
     // (limit && limit <= users.length) && (users = users.slice(0, limit));
     if (limit) {
         if (limit <= users.length && limit > -1) {
-            users = users.slice(0, limit);
+            const newUsers = users.slice(0, limit);
+            users = newUsers;
             res.send(users);
         }
         else {
             res.status(404).send("users not found.")
         }
-    };
-    res.send(users);
+    }
+    else {
+        res.send(users);
+    }
 };
 
 module.exports.saveAUser = (req, res) => {
