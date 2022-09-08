@@ -29,7 +29,7 @@ module.exports.saveAUser = (req, res) => {
 
 module.exports.updateAUser = (req, res) => {
     const { id, gender, name, contact, address, img } = req.body;
-    const filter = { _id: id };
+
     if (id && (typeof (id) === "string" || typeof (id) === "number")) {
         const updatedUser = users.find(user => user.id === Number(id));
 
