@@ -28,19 +28,23 @@ module.exports.saveAUser = (req, res) => {
 };
 
 module.exports.updateAUser = (req, res) => {
-    // const { id } = req.params;
     const { id, gender, name, contact, address, img } = req.body;
     const filter = { _id: id };
-    if (typeof (id) !== "string") {
+    if (id && (typeof (id) === "string" || typeof (id) === "number")) {
+        const updatedUser = users.find(user => user.id === Number(id));
+
+        id && (updatedUser.id = id);
+        gender && (updatedUser.gender = gender);
+        name && (updatedUser.name = name);
+        contact && (updatedUser.contact = contact);
+        img && (updatedUser.img = img);
+        address && (updatedUser.address = address);
+
+        res.send(updatedUser);
+    }
+    else {
         res.status(404).send("id is not found");
     }
-    const updatedUser = users.find(user => user.id === Number(id));
-    gender && (updatedUser.gender = gender);
-    name && (updatedUser.name = name);
-    contact && (updatedUser.contact = contact);
-    img && (updatedUser.img = img);
-    address && (updatedUser.address = address);
-    res.send(updatedUser);
 };
 
 
